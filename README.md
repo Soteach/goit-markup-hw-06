@@ -1,4 +1,4 @@
-# goit-markup-hw-02
+# goit-markup-hw
 /* roboto 400,500,700,900
 Raleway700 
 

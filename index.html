@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>homework-5</title>
+    <title>homework-6</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
@@ -380,6 +380,54 @@
                 </use>
             </svg>
         </button>
+        <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
+        <form>
+            <div class="modal-field">
+            <label class="modal-label" for="user-name">Имя</label>
+                <input type="text"
+                class="modal-input"  
+                name="user-name" 
+                placeholder="Ваше имя" 
+                required 
+                minlength="2" 
+                title="Іван Сулима"/>
+            </div>
+            <div class="modal-field">
+            <label class="modal-label" for="user-tel">Телефон</label>
+            <input type="tel" 
+            class="modal-input" 
+            name="user-tel" 
+            placeholder="Ваш телефон" 
+            required minlength="2" 
+            title="+380 63 111-11-11" />    
+            </div>
+            <div class="modal-field">
+            <label class="modal-label" for="user-email">Почта</label>
+            <input type="email" 
+            class="modal-input"  
+            name="user-email" 
+            placeholder="Ваша почта" 
+            required minlength="2" 
+            title="IvanSulyma@gmail.com" />
+            <!-- <svg class="mail-modal-icon" width="15" heigth="12">
+                <use href="./images/symbol-defs.svg#icon-modal-mail"></use>
+            </svg> -->
+            </div>
+            <div class="modal-field">
+                <label class="modal-label" for="user-text">Комментарий</label>
+                <textarea 
+                class="modal-text"
+                name="user-text" 
+                id="user-text" 
+                placeholder="Введите текст"></textarea>
+            </div>
+<fieldset class="modal-fieldset">
+    <input type="checkbox" class="modal-checkbox">
+    <label for="" class="checkbox-label">Соглашаюсь с рассылкой и принимаю</label>
+    <a href="" class="checkbox-link">Условия договора</a>
+</fieldset>
+            <button class="modal-button pointer" type="submit">Отправить</button>
+        </form>
     </div>
 </div>
 <script src="./js/modal.js"></script>
