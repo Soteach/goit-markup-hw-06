@@ -1096,6 +1096,10 @@ cursor: pointer;
     align-items: center
 }
 
+label.checkbox-label::before {
+    margin-left: 15px;
+}
+
 .privacy-link {
     font-size: 14px;
     line-height: calc(24/14);
